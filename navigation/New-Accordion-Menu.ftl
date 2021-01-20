@@ -2,8 +2,6 @@
 
 <script src="https://kit.fontawesome.com/bf8d3d6627.js" crossorigin="anonymous"></script>
 
-<#assign portletDisplay = themeDisplay.getPortletDisplay() />
-
 <style>
 	.subnav {border: 1px solid #e7e7e7;}
 	.subnav div.level-0,
