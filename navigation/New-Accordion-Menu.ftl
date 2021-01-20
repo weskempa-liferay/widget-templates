@@ -57,13 +57,10 @@ letter-spacing: -.02em;}
 <script>
 	AUI().use('aui-base','aui-node', function(A){
 	    A.all(".subnav div[class^='level']").on("click",function(ev){
-	        console.log(ev);
+	    	
 	        var target = A.one(ev._currentTarget);
-	        console.log(target);
 	        var clickid = target.getAttribute("id");
-	        console.log(clickid);
 	        target.hasClass("expanded");
-	        console.log( target.toggleClass("expanded") );
     		
     		A.one("div[data-parent="+clickid+"]").toggleClass("expanded");
     	
